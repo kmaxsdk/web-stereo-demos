@@ -1,0 +1,25 @@
+{
+  "name": "babylon-stereo-demo",
+  "version": "1.0.0",
+  "description": "Babylon.js stereo rendering demo for Kmax SDK.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@babylonjs/core": "^8.39.0",
+    "@kmax/babylon-stereo": "1.0.0"
+  },
+  "devDependencies": {
+    "vite": "^7.3.1"
+  },
+  "keywords": [
+    "babylonjs",
+    "stereo",
+    "webgl",
+    "kmax"
+  ],
+  "author": "Hanli",
+  "license": "ISC"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "three-stereo-demo",
+  "version": "1.0.0",
+  "description": "A Three.js project demonstrating stereo rendering",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@kmax/three-stereo": "1.0.0",
+    "lil-gui": "^0.21.0",
+    "stats.js": "^0.17.0",
+    "three": "^0.182.0"
+  },
+  "devDependencies": {
+    "vite": "^7.3.1"
+  },
+  "keywords": ["threejs", "stereo", "webgl"],
+  "author": "Hanli",
+  "license": "ISC"
+}

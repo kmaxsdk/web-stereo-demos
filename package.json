@@ -1,0 +1,25 @@
+{
+  "name": "kmax-stereo-demos",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Kmax stereo SDK public demos.",
+  "type": "module",
+  "workspaces": [
+    "three-stereo",
+    "babylon-stereo"
+  ],
+  "scripts": {
+    "dev:three-stereo": "npm run dev -w three-stereo-demo",
+    "build:three-stereo": "npm run build -w three-stereo-demo",
+    "dev:babylon-stereo": "npm run dev -w babylon-stereo-demo",
+    "build:babylon-stereo": "npm run build -w babylon-stereo-demo",
+    "build": "npm run build:three-stereo && npm run build:babylon-stereo"
+  },
+  "dependencies": {
+    "@kmax/stereo-core": "1.0.0",
+    "@kmax/three-stereo": "1.0.0",
+    "@kmax/babylon-stereo": "1.0.0"
+  },
+  "author": "kmax",
+  "license": "MIT"
+}
