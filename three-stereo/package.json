@@ -8,7 +8,7 @@
     "build": "vite build"
   },
   "dependencies": {
-    "@kmax/three-stereo": "1.0.0",
+    "@kmax/three-stereo": "1.1.0",
     "lil-gui": "^0.21.0",
     "stats.js": "^0.17.0",
     "three": "^0.182.0"
@@ -16,7 +16,11 @@
   "devDependencies": {
     "vite": "^7.3.1"
   },
-  "keywords": ["threejs", "stereo", "webgl"],
+  "keywords": [
+    "threejs",
+    "stereo",
+    "webgl"
+  ],
   "author": "Hanli",
   "license": "ISC"
 }
