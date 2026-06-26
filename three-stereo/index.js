@@ -2,11 +2,14 @@ import * as THREE from 'three';
 import Stats from 'stats.js';
 import { GUI } from 'lil-gui';
 import {
+  KMAX_THREE_STEREO_VERSION,
   KStereoEffect,
   KStylusRaycaster,
   WSTrackClient,
   createKmaxFrustumProvider,
 } from '@kmax/three-stereo';
+
+console.info('@kmax/three-stereo version', KMAX_THREE_STEREO_VERSION);
 
 const scene = new THREE.Scene();
 

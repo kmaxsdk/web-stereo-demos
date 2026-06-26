@@ -14,11 +14,14 @@ import { CreateBox } from '@babylonjs/core/Meshes/Builders/boxBuilder.js';
 import { CreateGround } from '@babylonjs/core/Meshes/Builders/groundBuilder.js';
 import { CreateSphere } from '@babylonjs/core/Meshes/Builders/sphereBuilder.js';
 import {
+  KMAX_BABYLON_STEREO_VERSION,
   KBabylonStereoEffect,
   KBabylonStylusRaycaster,
   WSTrackClient,
   createBabylonKmaxFrustumProvider,
 } from '@kmax/babylon-stereo';
+
+console.info('@kmax/babylon-stereo version', KMAX_BABYLON_STEREO_VERSION);
 import './style.css';
 
 const canvas = document.querySelector('#renderCanvas');
@@ -210,3 +213,4 @@ engine.runRenderLoop(() => {
 
   updateFpsCounter();
 });
+

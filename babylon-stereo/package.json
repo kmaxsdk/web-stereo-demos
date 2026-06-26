@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@babylonjs/core": "^8.39.0",
-    "@kmax/babylon-stereo": "1.1.0"
+    "@kmax/babylon-stereo": "1.2.0"
   },
   "devDependencies": {
     "vite": "^7.3.1"
